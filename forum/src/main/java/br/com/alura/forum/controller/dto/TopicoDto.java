@@ -22,9 +22,10 @@ public class TopicoDto {
 		 
 	 }
 	
-	public Long getIdLong() {
+	public Long getId() {
 		return id;
-	}
+	} 
+	 
 	public String getTitulo() {
 		return titulo;
 	}
@@ -40,8 +41,5 @@ public class TopicoDto {
 					  .map(TopicoDto::new)
 					  .collect(Collectors.toList());
 	}
-	
-
 }
 
-//  TESTANDO
